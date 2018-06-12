@@ -1,12 +1,15 @@
 package parser;
 
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Workbook;
 
 import javax.xml.transform.TransformerException;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
+
+import static java.lang.System.out;
 
 public class ParserInformationStatBase {
     public static void main(String[] args) throws IOException, FileNotFoundException, TransformerException {
@@ -22,9 +25,24 @@ public class ParserInformationStatBase {
             writer.write("Название вкладок = "+workbook.getSheetName(i)+"\n");
             tabNames.add(workbook.getSheetName(i));
         }
-        writer.close();
+        List<String> rowA = VvpByQuarter.readDataA(workbook,tabNames);
+        List<String> rowB = VvpByQuarter.readDataB(workbook,tabNames);
+        List<String> rowC = VvpByQuarter.readDataC(workbook,tabNames);
+        List<String> rowD = VvpByQuarter.readDataD(workbook,tabNames);
+        List<String> rowE = VvpByQuarter.readDataE(workbook,tabNames);
+        List<String> rowF = VvpByQuarter.readDataF(workbook,tabNames);
+        List<String> rowH = VvpByQuarter.readDataH(workbook,tabNames);
+        List<String> rowI = VvpByQuarter.readDataI(workbook,tabNames);
+        List<String> rowJ = VvpByQuarter.readDataJ(workbook,tabNames);
+        List<String> rowK = VvpByQuarter.readDataK(workbook,tabNames);
+        List<String> rowL = VvpByQuarter.readDataL(workbook,tabNames);
+
+
+        rowL.forEach(System.out::println);
+
         ConstructorsForXMLStatbase xml =  new ConstructorsForXMLStatbase();
         xml.ParamLangXML();
-        xml.WriteParamXML(tabNames);
+        xml.WriteParamXML(file.getName(),tabNames,rowA,rowB);
+        writer.close();
     }
 }
