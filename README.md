@@ -1,2 +1,2 @@
 # excelparser
-ParserToCSVInformationStatBase.java Parse to CSV
+ParserToCSVInformationStatBase.java parse to CSV
