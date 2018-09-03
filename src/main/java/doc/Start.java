@@ -37,11 +37,11 @@ public class Start {
             String[] cells5=ReadDocuments.getCellName(list.get(i),"импорт товаров и услуг");
             System.out.println(cells5[0]+" "+cells5[1]);
             //Sith Валовой внутренний продукт методом конечного использования
-            String[] cells6=ReadDocuments.getCellName(list.get(i),"конечного использования");
-            if (cells2[1].isEmpty()){
-                System.out.println("Валовой внутренний продукт методом "+cells2[0]+" "+cells2[2]);
+            String[] cells6 = ReadDocuments.getCellName(list.get(i),"Валовой внутренний продукт методом конечного использования");
+            if (cells6[1].isEmpty()){
+                System.out.println(cells6[0]+" "+cells6[2]);
             } else{
-                System.out.println("Валовой внутренний продукт методом "+cells2[0]+" "+cells2[1]);
+                System.out.println(cells6[0]+" "+cells6[1]);
             }
             System.out.println("===============================================================================================================");
         }

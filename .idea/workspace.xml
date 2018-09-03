@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5c0613c-01aa-4083-89ce-f3b2f206de7a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/doc/ReadDocuments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/doc/Start.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/doc/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/doc/Start.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,12 +15,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
+    <leaf>
       <file leaf-file-name="ReadDocuments.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/doc/ReadDocuments.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="185">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,8 +31,8 @@
       <file leaf-file-name="Start.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/doc/Start.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+            <state relative-caret-position="280">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,7 +108,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -197,8 +194,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -453,7 +451,9 @@
       <workItem from="1530948814427" duration="5451000" />
       <workItem from="1535732610411" duration="3115000" />
       <workItem from="1535736335477" duration="2782000" />
-      <workItem from="1535780856617" duration="4241000" />
+      <workItem from="1535780856617" duration="5036000" />
+      <workItem from="1535947335149" duration="9000" />
+      <workItem from="1535972366913" duration="1368000" />
     </task>
     <task id="LOCAL-00001" summary="Мукышщт 0.2">
       <created>1528777552449</created>
@@ -476,14 +476,22 @@
       <option name="project" value="LOCAL" />
       <updated>1530953738494</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Парсинг doc документа по пункту 1-6">
+      <created>1535787358870</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1535787358870</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61569000" />
+    <option name="totallyTimeSpent" value="63741000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="41" width="1920" height="1039" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="13" />
@@ -495,11 +503,11 @@
       <window_info anchor="right" id="Maven Projects" order="1" />
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.32909784" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="1.0" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.41785714" />
       <window_info anchor="bottom" id="Terminal" order="6" weight="0.3266583" />
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.25811687" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.267316" />
       <window_info anchor="right" id="Database" order="2" />
       <window_info anchor="bottom" id="CodeSearch" order="2" show_stripe_button="false" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
@@ -507,13 +515,13 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.43554443" />
+      <window_info active="true" anchor="bottom" id="Debug" order="10" visible="true" weight="0.43452382" />
+      <window_info anchor="right" id="Properties" order="10" />
       <window_info anchor="bottom" id="Inspection Results" order="1" weight="0.32891566" />
       <window_info anchor="bottom" id="JRebel Executor" order="16" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="right" id="Properties" order="10" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info id="Nl-Palette" order="9" />
       <window_info id="JRebel" order="10" side_tool="true" />
@@ -562,11 +570,20 @@
     <MESSAGE value="Мукышщт 0.2" />
     <MESSAGE value="version 0.2" />
     <MESSAGE value="Экспорт Excel в CSV формат." />
-    <option name="LAST_COMMIT_MESSAGE" value="Экспорт Excel в CSV формат." />
+    <MESSAGE value="Парсинг doc документа по пункту 1-6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Парсинг doc документа по пункту 1-6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="26" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/doc/Start.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="32" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -878,8 +895,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/doc/ReadDocuments.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="185">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -888,8 +905,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/doc/Start.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        <state relative-caret-position="280">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
