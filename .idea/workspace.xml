@@ -15,11 +15,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file leaf-file-name="ReadDocuments.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/doc/ReadDocuments.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
+            <state relative-caret-position="881">
               <caret line="47" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -31,8 +31,8 @@
       <file leaf-file-name="Start.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/doc/Start.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="658">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,6 +108,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,9 +196,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -453,7 +453,9 @@
       <workItem from="1535736335477" duration="2782000" />
       <workItem from="1535780856617" duration="5036000" />
       <workItem from="1535947335149" duration="9000" />
-      <workItem from="1535972366913" duration="1368000" />
+      <workItem from="1535972366913" duration="2259000" />
+      <workItem from="1535977948880" duration="29000" />
+      <workItem from="1536243304405" duration="731000" />
     </task>
     <task id="LOCAL-00001" summary="Мукышщт 0.2">
       <created>1528777552449</created>
@@ -483,14 +485,21 @@
       <option name="project" value="LOCAL" />
       <updated>1535787358870</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Парсинг doc документа по пункту 1-6. 6 пункт отображал не правильно. Замечание было исправлено.">
+      <created>1535973997278</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1535973997278</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63741000" />
+    <option name="totallyTimeSpent" value="65392000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="41" width="1920" height="1039" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
@@ -502,26 +511,26 @@
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="1" />
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="4" weight="0.32909784" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.41785714" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.330413" />
+      <window_info anchor="bottom" id="Version Control" order="4" weight="0.32857144" />
       <window_info anchor="bottom" id="Terminal" order="6" weight="0.3266583" />
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.267316" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.27218616" />
       <window_info anchor="right" id="Database" order="2" />
       <window_info anchor="bottom" id="CodeSearch" order="2" show_stripe_button="false" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.43429285" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="10" visible="true" weight="0.43452382" />
-      <window_info anchor="right" id="Properties" order="10" />
       <window_info anchor="bottom" id="Inspection Results" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="JRebel Executor" order="16" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="right" id="Properties" order="10" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info id="Nl-Palette" order="9" />
       <window_info id="JRebel" order="10" side_tool="true" />
@@ -529,7 +538,7 @@
       <window_info anchor="bottom" id="Spring" order="5" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32909784" />
       <window_info anchor="right" id="Commander" order="6" weight="0.4" />
-      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="JRebel Executor" order="16" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
     </layout>
@@ -571,19 +580,20 @@
     <MESSAGE value="version 0.2" />
     <MESSAGE value="Экспорт Excel в CSV формат." />
     <MESSAGE value="Парсинг doc документа по пункту 1-6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Парсинг doc документа по пункту 1-6" />
+    <MESSAGE value="Парсинг doc документа по пункту 1-6. 6 пункт отображал не правильно. Замечание было исправлено." />
+    <option name="LAST_COMMIT_MESSAGE" value="Парсинг doc документа по пункту 1-6. 6 пункт отображал не правильно. Замечание было исправлено." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/doc/Start.java</url>
-          <line>41</line>
+          <url>file://$PROJECT_DIR$/src/main/java/doc/ReadDocuments.java</url>
+          <line>47</line>
           <properties />
-          <option name="timeStamp" value="30" />
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="32" />
+      <option name="time" value="33" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -895,7 +905,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/doc/ReadDocuments.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
+        <state relative-caret-position="881">
           <caret line="47" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -905,8 +915,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/doc/Start.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="658">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
