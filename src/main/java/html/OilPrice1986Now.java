@@ -15,9 +15,9 @@ public class OilPrice1986Now {
             Document document = Jsoup.connect(URL).get();
             Element table = document.select("table").get(0);
             Elements rows = table.select("tr");
-            data.add(rows.get(0).select("td"));// Select Table heading
-            for (int j = 1; j<rows.size(); j++) {// Iterate through table data
-                data.add(rows.get(j).select("td"));// Storing result in Array List
+            data.add(rows.get(0).select("td"));
+            for (int j = 1; j<rows.size(); j++) {
+                data.add(rows.get(j).select("td"));
             }
         } catch (Exception e){
             System.out.println("Error by reading html file");
@@ -38,7 +38,6 @@ public class OilPrice1986Now {
         }
 
         parsedTableData.forEach(elements -> {
-            //System.out.println(elements.text());
             System.out.println(elements.get(0).text()+" ; "+elements.get(1).text());
         });
 
